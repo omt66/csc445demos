@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    background-color: #ddd;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2.1fr 0.5fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "A1 A1 A1 A1"
+      "A2 A2 A3 A3"
+      "A4 A4 A4 A4";
+  }
+  .A1 { grid-area: A1; background-color: red;}
+  .A2 { grid-area: A2; background-color: green;}
+  .A3 { grid-area: A3; background-color: blue;}
+  .A4 { grid-area: A4; background-color: orange;}

@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Odibee+Sans&family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap');
+
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 16pt;
+}
+
+span {
+    color: green;
+    font-size: 19pt; 
+    font-style: normal;
+}
+
+div {
+    color: blue;
+    font-size: 22pt;
+    font-style: italic;
+}
+
+.info {
+    color: yellow;
+    background-color: coral;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid black;
+}
+
+.info:hover {
+    color: yellow;
+    background-color: black;
+}
+
+#line1 {
+    color: whitesmoke;
+    background-color: chocolate;
+}
+
+.item1 {
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+
+    color: #000;
+}
+
+.item1::after {
+    content: "<";
+    float: ;    
+}
+
+.item1::selection {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    width: 90%;
+    background-color: yellow;
+    border: 2px solid green;    
+}
+
+.w25 {
+    width: 25%;
+    border: 5px solid black;
+    /* display: inline-block; */
+    float: left;
+}

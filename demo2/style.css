@@ -1,0 +1,11 @@
+#info2 {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 3px #777;
+}
+
+#ball {
+    position: absolute;
+    left: 0px;
+    top:0px;    
+}
