@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Express World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello Express World</h1>
+    <div id="username"></div>
+
+    Your name: <input id="name" type="text" placeholder="Name?"/>
+    <button id="btn2">Save</button>
+    <p>
+        This page is served from our NodeJS Express Server.
+    </p>
+
+    <div id="users" class="info-card">
+        Users will be here...
+    </div>
+
+    <hr>
+
+    <h2> Let's use Google's Book API:</h2>
+    End point: https://www.googleapis.com/books/v1/volumes?q=html5
+
+    <div>
+        <input id="query" type="text" placeholder="Query"/>
+        <button id="btn1">Search</button>
+    </div>
+
+    <div id="books" class="info-card">
+       
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

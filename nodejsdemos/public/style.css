@@ -1,0 +1,16 @@
+.info-card {
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 0 3px #777;
+    background-color: whitesmoke;
+}
+
+.book {
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 1px 1px 3px #333;
+}
+
+.book-description {
+    padding: 5px;
+}
